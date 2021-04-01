@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/teal_700"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Dang Nhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+
+        android:layout_marginTop="40dp"
+        android:hint="User Name"
+        android:id="@+id/editTextuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonDongy"
+            android:layout_weight="5"
+            android:text="Dong Y"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></Button>
+
+<Button
+    android:id="@+id/buttonHUy"
+    android:text="HUy"
+    android:layout_weight="5"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
